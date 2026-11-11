@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-principal" data-bs-smooth-scroll="true" tabindex="0">
+
+
+    <nav id="navbar-principal" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#inicio">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="inicio" class="min-vh-100 d-flex align-items-center justify-content-center bg-light text-center pt-5">
+        <div class="container py-5">
+            <h1 class="display-2 fw-bold text-dark mb-3">Hola, soy Joakin Diario</h1>
+            <p class="lead text-muted mb-4 fs-4">Desarrollador Web Full Stack apasionado por crear soluciones digitales innovadoras.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#proyectos" class="btn btn-primary btn-lg px-4">Ver proyectos</a>
+                <a href="#contacto" class="btn btn-outline-primary btn-lg px-4">Contáctame</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sobre-mi" class="py-5">
+        <div class="container py-4">
+            <h2 class="text-center fw-bold mb-5">Sobre mí</h2>
+            <div class="row align-items-center g-4">
+                <div class="col-md-5 text-center">
+                    <img src="momonga.jpg" class="img-fluid rounded-circle shadow" alt="Foto de perfil">
+                </div>
+                <div class="col-md-7">
+                    <h3 class="h4 mb-3">Desarrollador Web & Diseñador UI/UX</h3>
+                    <p class="text-secondary">
+                        Cuento con experiencia construyendo aplicaciones web eficientes, escalables y visualmente atractivas. Me especializo en el ecosistema de JavaScript y frameworks de maquetación responsive.
+                    </p>
+                    <p class="text-secondary">
+                        Mi enfoque principal es escribir código limpio y optimizado para ofrecer una excelente experiencia de usuario.
+                    </p>
+                    <a href="#" class="btn btn-success mt-2">
+                        <i class="bi bi-download me-2"></i>Descargar CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="py-5 bg-light">
+        <div class="container py-4">
+            <h2 class="text-center fw-bold mb-5">Habilidades</h2>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold">HTML5 & CSS3</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-success" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold">JavaScript (ES6+)</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-warning text-dark" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold">Bootstrap 5</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-primary" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold">Node.js</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-info text-dark" style="width: 70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5 text-center">
+                        <h4 class="h6 text-muted mb-3">Herramientas y Tecnologías Adicionales</h4>
+                        <span class="badge bg-secondary me-1 p-2">Git</span>
+                        <span class="badge bg-secondary me-1 p-2">GitHub</span>
+                        <span class="badge bg-secondary me-1 p-2">VS Code</span>
+                        <span class="badge bg-secondary me-1 p-2">Figma</span>
+                        <span class="badge bg-secondary me-1 p-2">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="proyectos" class="py-5">
+        <div class="container py-4">
+            <h2 class="text-center fw-bold mb-5">Proyectos</h2>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Proyecto 1 -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="EBDLS.png" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">E-commerce App</h5>
+                            <p class="card-text text-secondary flex-grow-1">Plataforma de comercio electrónico interactiva con carrito de compras y pasarela de pago.</p>
+                            <div class="mb-3">
+                                <span class="badge text-bg-primary">React</span>
+                                <span class="badge text-bg-dark">Node.js</span>
+                            </div>
+                            
+                            <button class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalProyecto1">
+                                Ver detalles
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="LLEGA.png" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Dashboard de Analíticas</h5>
+                            <p class="card-text text-secondary flex-grow-1">Panel de control con métricas en tiempo real, gráficos de rendimiento y reportes.</p>
+                            <div class="mb-3">
+                                <span class="badge text-bg-warning">JS ES6</span>
+                                <span class="badge text-bg-info">Bootstrap</span>
+                            </div>
+                            <button class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalProyecto1">
+                                Ver detalles
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="INSIDE.png" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Gestor de Tareas</h5>
+                            <p class="card-text text-secondary flex-grow-1">Aplicación web progresiva para administrar tareas diarias y organización de proyectos.</p>
+                            <div class="mb-3">
+                                <span class="badge text-bg-danger">HTML5/CSS3</span>
+                                <span class="badge text-bg-success">LocalStorage</span>
+                            </div>
+                            <button class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#modalProyecto1">
+                                Ver detalles
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="modal fade" id="modalProyecto1" tabindex="-1" aria-labelledby="modalProyecto1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="modalProyecto1Label">Detalle del Proyecto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/800x400" class="img-fluid rounded mb-3" alt="Vista ampliada">
+                    <h4>Información General</h4>
+                    <p>Este proyecto fue diseñado con un enfoque Mobile-First y utilizando las mejores prácticas de optimización de rendimiento en la web. Incluye autenticación de usuarios, persistencia en base de datos e integración con APIs RESTful externas.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="#" class="btn btn-primary" target="_blank">Ir al sitio en vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="experiencia" class="py-5 bg-light">
+        <div class="container py-4">
+            <h2 class="text-center fw-bold mb-5">Experiencia y Formación</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="accordionExperiencia">
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Desarrollador Front-End — Empresa Tech (2024 - Presente)
+                                </button>
+                            </h3>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExperiencia">
+                                <div class="accordion-body">
+                                    Encargado de la maquetación y desarrollo de la interfaz de usuario utilizando Bootstrap, React y Sass. Implementación de pruebas unitarias y optimización de componentes.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Ingeniería en Sistemas / Computación (2020 - 2024)
+                                </button>
+                            </h3>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExperiencia">
+                                <div class="accordion-body">
+                                    Graduado con especialización en desarrollo de software, algoritmos, arquitectura de redes y gestión de bases de datos relacionales y NoSQL.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Certificación Full Stack Developer (2023)
+                                </button>
+                            </h3>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExperiencia">
+                                <div class="accordion-body">
+                                    Programa intensivo enfocado en tecnologías web modernas: Node.js, Express, MongoDB, HTML5, CSS3, JavaScript avanzado y control de versiones con Git/GitHub.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contacto" class="py-5">
+        <div class="container py-4">
+            <h2 class="text-center fw-bold mb-5">Contacto</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="inputNombre" placeholder="Tu nombre" required>
+                            <label for="inputNombre">Nombre completo</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="nombre@ejemplo.com" required>
+                            <label for="inputEmail">Correo electrónico</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <select class="form-select" id="selectAsunto" aria-label="Asunto de contacto">
+                                <option selected>Selecciona una opción</option>
+                                <option value="1">Oferta Laboral</option>
+                                <option value="2">Proyecto Freelance</option>
+                                <option value="3">Consulta General</option>
+                            </select>
+                            <label for="selectAsunto">Asunto</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="Escribe tu mensaje aquí" id="textareaMensaje" style="height: 120px" required></textarea>
+                            <label for="textareaMensaje">Mensaje</label>
+                        </div>
+
+                        <button class="btn btn-primary btn-lg w-100" type="submit">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+            <p class="mb-0">© 2026 Tu Nombre. Todos los derechos reservados.</p>
+            <div class="d-flex gap-3 fs-4">
+                <a href="https://github.com" target="_blank" class="text-light" data-bs-toggle="tooltip" data-bs-title="GitHub">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="text-light" data-bs-toggle="tooltip" data-bs-title="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="mailto:tuemail@ejemplo.com" class="text-light" data-bs-toggle="tooltip" data-bs-title="Correo electrónico">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+</html>
