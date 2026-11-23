@@ -1,0 +1,168 @@
+:root {
+    --verde-limon-neon: #d4e157;      
+    --verde-limon-hover: #b0c027;     
+    --azul-metalico: #0081a7;         
+    --azul-metalico-dark: #005f73;
+    --bg-cristal-base: rgba(253, 250, 242, 0.65); 
+    --bg-cristal-suave: rgba(247, 243, 232, 0.40);
+    
+    --texto-oscuro: #1d2d44;
+    --glass-bg: rgba(255, 255, 255, 0.35);
+    --glass-border: rgba(255, 255, 255, 0.4);
+    --glass-shadow: 0 8px 32px 0 rgba(0, 95, 115, 0.15);
+}
+
+
+body {
+    background: radial-gradient(circle at 10% 20%, rgba(212, 225, 87, 0.35) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(0, 129, 167, 0.30) 0%, transparent 50%),
+                linear-gradient(135deg, #fdfaf2 0%, #e8f1f5 100%);
+    background-attachment: fixed;
+    color: var(--texto-oscuro);
+    min-height: 100vh;
+}
+
+
+.bg-cristal-pagina {
+    background: var(--bg-cristal-base);
+    backdrop-filter: blur(20px) saturate(160%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%);
+}
+
+.bg-crema-suave {
+    background-color: var(--bg-cristal-suave) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.navbar-custom {
+    background-color: rgba(0, 95, 115, 0.75) !important;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.btn-limon {
+    background-color: var(--verde-limon-neon);
+    color: var(--azul-metalico-dark);
+    border: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(212, 225, 87, 0.4);
+}
+
+.btn-limon:hover {
+    background-color: var(--verde-limon-hover);
+    color: var(--azul-metalico-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(212, 225, 87, 0.6);
+}
+
+.btn-outline-limon {
+    border: 2px solid var(--azul-metalico);
+    color: var(--azul-metalico);
+    font-weight: 600;
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+}
+
+.btn-outline-limon:hover {
+    background-color: var(--azul-metalico);
+    color: #ffffff;
+    border-color: var(--azul-metalico);
+}
+
+.card, 
+.modal-content, 
+.glass-effect {
+    background: var(--glass-bg) !important;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid var(--glass-border) !important;
+    box-shadow: var(--glass-shadow);
+    border-radius: 16px;
+}
+
+.progress {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+}
+
+.progress-bar-limon {
+    background: linear-gradient(90deg, var(--azul-metalico) 0%, var(--verde-limon-neon) 100%) !important;
+    border-radius: 10px;
+}
+
+.badge-limon {
+    background-color: var(--verde-limon-neon) !important;
+    color: var(--azul-metalico-dark);
+    font-weight: 600;
+}
+
+.badge-azul {
+    background-color: var(--azul-metalico) !important;
+    color: #ffffff;
+}
+
+.accordion-item {
+    background: transparent !important;
+    border: 1px solid var(--glass-border);
+    margin-bottom: 8px;
+    border-radius: 12px !important;
+    overflow: hidden;
+}
+
+.accordion-button {
+    background: var(--glass-bg) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: var(--azul-metalico-dark);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(212, 225, 87, 0.35) !important;
+    color: var(--azul-metalico-dark);
+    box-shadow: inset 0 -1px 0 var(--glass-border);
+}
+
+.accordion-body {
+    background: var(--glass-bg);
+}
+
+.footer-custom {
+    background-color: rgba(0, 95, 115, 0.85) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-custom a:hover {
+    color: var(--verde-limon-neon) !important;
+}
+
+.img-modal-galeria {
+    width: 100%;
+    max-width: 500px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.img-modal-galeria.focus-top {
+    object-position: center top;
+}
+
+.glass-crema-modal {
+    background: rgba(253, 250, 242, 0.68) !important; /* Tono crema semi-transparente */
+    backdrop-filter: blur(16px) saturate(180%);        /* EFECTO CRISTAL / DESENFOQUE */
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.5) !important; /* Borde cristalino brillante */
+    box-shadow: 0 8px 32px 0 rgba(0, 95, 115, 0.15);
+}
+
+.glass-crema-modal .modal-header,
+.glass-crema-modal .modal-footer {
+    background: transparent !important;
+    border-color: rgba(0, 129, 167, 0.15);
+}
